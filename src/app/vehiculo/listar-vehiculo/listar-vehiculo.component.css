@@ -1,20 +1,23 @@
-/* Estilo para el banner */
 .banner-img {
-    display: block;
-    width: 100%;
-    height: auto; /* Mantiene la proporción original */
-    object-fit: cover;
-  }
-  
-  /* Línea divisoria */
-  .divisor {
-    height: 6px;
-    background-color: #007bff; /* azul intenso */
-    margin: 1rem 0;
-  }
-  
-  /* Contenedor de tabla */
-  .table-container {
-    margin: 0 auto;
-    max-width: 90%;
-  }
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.divisor {
+  height: 6px;
+  background-color: #007bff;
+  margin: 1rem 0;
+}
+
+.table-container {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.totales {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
