@@ -1,0 +1,27 @@
+<!-- Banner principal -->
+<img src="/images/banner.jpg" alt="Banner" class="banner-img" />
+
+<!-- Línea divisoria -->
+<div class="divisor"></div>
+
+<!-- Tabla de vehículos -->
+<div class="table-container">
+  <table class="table table-striped table-hover">
+    <thead class="table-dark">
+      <tr>
+        <th>#</th>
+        <th>Marca</th>
+        <th>Línea</th>
+        <th>Modelo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let v of vehiculos; let i = index">
+        <td>{{ i + 1 }}</td>
+        <td>{{ v.marca }}</td>
+        <td>{{ v.linea }}</td>
+        <td>{{ v.modelo }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
