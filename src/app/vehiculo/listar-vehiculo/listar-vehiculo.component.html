@@ -1,8 +1,15 @@
-<!-- Banner principal -->
-<img src="/images/banner.jpg" alt="Banner" class="banner-img" />
+<h1 class="titulo mt-4">TuSegundazo.com</h1>
 
-<!-- Línea divisoria -->
-<div class="divisor"></div>
+<!-- Linea Separadora -->
+<hr class="divisor" />
+
+<!-- Banner principal -->
+<div class="banner-wrapper">
+  <img src="/images/banner.jpg" alt="Banner Vehiculos" class="banner-img" />
+</div>
+
+<!-- Linea Separadora -->
+<hr class="divisor" />
 
 <!-- Tabla de vehículos -->
 <div class="table-container">
@@ -17,7 +24,7 @@
     </thead>
     <tbody>
       <tr *ngFor="let v of vehiculos; let i = index">
-        <td>{{ i + 1 }}</td>
+        <td class="numero-fila"> {{ i + 1 }}</td>
         <td>{{ v.marca }}</td>
         <td>{{ v.linea }}</td>
         <td>{{ v.modelo }}</td>
