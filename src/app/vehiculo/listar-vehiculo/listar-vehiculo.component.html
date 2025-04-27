@@ -1,30 +1,19 @@
-<h1 class="titulo mt-4">TuSegundazo.com</h1>
-
-<!-- Linea Separadora -->
-<hr class="divisor" />
-
-<!-- Banner principal -->
-<div class="banner-wrapper">
-  <img src="/images/banner.jpg" alt="Banner Vehiculos" class="banner-img" />
-</div>
-
-<!-- Linea Separadora -->
-<hr class="divisor" />
-
 <!-- Tabla de vehículos -->
 <div class="table-container">
-  <table class="table table-striped table-bordered table-hover">
+  <table class="table table-hover">
     <thead class="table-dark">
       <tr>
         <th>#</th>
         <th>Marca</th>
         <th>Línea</th>
-        <th>Modelo</th>
+        <!-- Aumentarle el espacio a esa columna -->
+        <th><div class="sizecolumn"> Modelo </div></th>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let v of vehiculos; let i = index">
-        <td class="numero-fila"> {{ i + 1 }}</td>
+        <!-- strong para ponerle negrilla -->
+        <td><strong>{{ i + 1 }}</strong></td>
         <td>{{ v.marca }}</td>
         <td>{{ v.linea }}</td>
         <td>{{ v.modelo }}</td>
@@ -41,13 +30,3 @@
     </ul>
   </div>
 </div>
-
-<!-- Footer de contact us -->
-<footer class="footer text-center">
-  <p class="mb-0">
-    Contact us: 
-    <a href="tel:+573102105253">+57 3102105253</a> -
-    <a href="mailto:info@tusengundazo.com">info&#64;tusengundazo.com</a> -
-    <a href="https://instagram.com/tusengundazo" target="_blank">&#64;tusengundazo</a>
-  </p>
-</footer>

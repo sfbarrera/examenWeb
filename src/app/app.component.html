@@ -1,2 +1,31 @@
-<app-listar-vehiculo></app-listar-vehiculo>
-<router-outlet />
+<div class="container mt-4">
+
+    <h1 class="titulo">TuSegundazo.com</h1>
+
+    <!-- Linea Separadora -->
+    <hr class="divisor" />
+
+    <!-- Banner principal -->
+    <div class="banner-wrapper">
+        <img src="/images/banner.jpg" alt="Banner Vehiculos" class="banner-img" />
+    </div>
+
+    <!-- Linea Separadora -->
+    <hr class="divisor" />
+
+    <!-- Aplicación Vehiculos - Tabla -->
+    <app-listar-vehiculo></app-listar-vehiculo>
+
+    <!-- Footer de contact us -->
+    <footer class="footer text-center">
+        <p class="mb-0">
+        Contact us: 
+        <a href="tel:+573102105253">+57 3102105253</a> -
+        <a href="mailto:info@tusengundazo.com">info&#64;tusengundazo.com</a> -
+        <a href="https://instagram.com/tusengundazo" target="_blank">&#64;tusengundazo</a>
+        </p>
+    </footer>
+
+</div>
+
+<router-outlet></router-outlet>
