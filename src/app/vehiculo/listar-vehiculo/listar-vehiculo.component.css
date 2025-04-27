@@ -5,15 +5,17 @@
   position: relative;
 }
 
-/* Usando DevTools encontre la propiedad */
+/* Color 1ra Fila */
 .table-dark {
   --bs-table-bg: #333a40
 }
 
+/* Ancho Última Columna */
 .sizecolumn{
   width: 130px;
 }
 
+/* Espaciado Listado */
 .list-unstyled li {  
   margin-bottom: -5px;
 }
