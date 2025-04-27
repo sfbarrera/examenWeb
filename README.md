@@ -1,6 +1,12 @@
 # Examen Semana 4 Conceptos básicos de ingeniería de software para la web
 
-Sergio Fernando Barrera Molano
+# Estudiante
+
+| Apellidos    | Nombres         | Email                       | Usuario GitHub  |
+|--------------|-----------------|-----------------------------|-----------------|
+|Barrera Molano| Sergio Fernando |sf.barreram1@uniandes.edu.co | sfbarrera       |
+
+# Resultados punto 1 y 2
 
 # VehiculosApp
 
