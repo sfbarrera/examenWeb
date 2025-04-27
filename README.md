@@ -8,13 +8,13 @@
 
 # Resultados puntos 1 y 2
 
-A continuación se presenta los resultados de los item número 1 y 2, pagina principal con la tabla y el listado de vehiculos por marca.
+A continuación se presenta los resultados de los items 1 y 2, pagina principal con la tabla y el listado de vehiculos por marca.
 
 ![image](https://github.com/user-attachments/assets/81be6910-3d33-4a47-b88d-8d575bc92f82)
 
 # Resultados punto 3
 
-A continuación se presentan los resultados del punto 3, tomado desde Chrome con la ejecución de las pruebas realizadas al applicación.
+A continuación se presentan los resultados del punto 3, tomado desde Chrome con la ejecución de las pruebas realizadas a la aplicación.
 
 Pruebas realizadas:
 1. Creación del App (Default Angular)
@@ -38,6 +38,12 @@ To start a local development server, run:
 
 ```bash
 ng serve
+```
+
+o
+
+```bash
+ng s
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
