@@ -14,10 +14,23 @@
 .table-container {
   margin: 0 auto;
   max-width: 90%;
+  padding-right: 32%;
 }
 
 .totales {
-  margin-top: 1rem;
-  font-size: 1rem;
-  font-weight: 500;
+  font-weight: 400;
+}
+
+ul.list-unstyled li {  
+  margin-bottom: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
 }

@@ -26,9 +26,21 @@
   </table>
 
   <!-- Totales por marca -->
-  <div class="totales">
-    <p *ngFor="let marca of marcasTotales">
-      Total {{ marca.nombre }}: {{ marca.total }}
-    </p>
+  <div class="totales mt-4">  
+    <ul class="list-unstyled">    
+      <li *ngFor="let marca of marcasTotales">      
+        Total {{ marca.nombre }}: {{ marca.total }}    
+      </li>  
+    </ul>
   </div>
 </div>
+
+<!-- Footer de contact us -->
+<footer class="footer text-center">
+  <p class="mb-0">
+    Contact us: 
+    <a href="tel:+573102105253">+57 3102105253</a> -
+    <a href="mailto:info@tusengundazo.com">info&#64;tusengundazo.com</a> -
+    <a href="https://instagram.com/tusengundazo" target="_blank">&#64;tusengundazo</a>
+  </p>
+</footer>
