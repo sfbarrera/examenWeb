@@ -6,7 +6,27 @@
 |--------------|-----------------|-----------------------------|-----------------|
 |Barrera Molano| Sergio Fernando |sf.barreram1@uniandes.edu.co | sfbarrera       |
 
-# Resultados punto 1 y 2
+# Resultados puntos 1 y 2
+
+A continuación se presenta los resultados de los item número 1 y 2, pagina principal con la tabla y el listado de vehiculos por marca.
+
+![image](https://github.com/user-attachments/assets/81be6910-3d33-4a47-b88d-8d575bc92f82)
+
+# Resultados punto 3
+
+A continuación se presentan los resultados del punto 3, tomado desde Chrome con la ejecución de las pruebas realizadas al applicación.
+
+Pruebas realizadas:
+1. Creación del App (Default Angular)
+2. Creación del servicio (Default Angular)
+3. Creación del componente (Default Angular)
+4. Validación de la creación de la tabla con 3 vehiculos (items) del test.
+5. Validación de la funcion de conteo para vehiculos "Chevrolet"
+6. Validación de la funcion de conteo para vehiculos "Renault"
+
+Todas las pruebas fueron exitosas.
+
+![image](https://github.com/user-attachments/assets/43291536-f2af-45f1-a608-96cd9ccd56c3)
 
 # VehiculosApp
 
